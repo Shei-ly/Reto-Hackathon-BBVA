@@ -12,6 +12,7 @@ class Cliente(models.Model):
     nacionalidad = models.CharField(max_length=50)
     rfc = models.CharField(max_length=50)
     tipoID = models.CharField(max_length=50)
+    numeroID = models.CharField(max_length=50)
     cuenta = models.CharField(max_length=50)
     email = models.CharField(max_length=50)
     # TDD = models.CharField(max_length=50)
